@@ -1,0 +1,10 @@
+!!! 5
+%html
+  %head
+    = bootstrap_assets
+    %link{rel: 'stylesheet', href: '/styles.css'}
+  %body
+    - container :fluid do
+      - row do
+        - span12 do
+          = yield

@@ -1,0 +1,46 @@
+- row do
+  - span12 do
+    %div{:class=>'hero-unit'}
+      %h1 Sinatra Seed App
+      %p Starting point for a Sinatra App
+- row do
+  - span10 :offset => 1 do
+    %p{:class=>'lead'}
+      To get started run
+      %code rackup
+      from the command line and visit 
+      %a{:href=>'http://localhost:4567'} http://localhost:9292
+      in your browser!
+- row do
+  - span10 :offset => 1 do
+    %p{:class=>'lead'} Details of the gems used in this seed app...
+- row do
+  - span10 :offset => 2 do
+    %ul{:class=>'unstyled'}
+      %li
+        %strong sinatra-contrib
+        %ul
+          %li Collection of common Sinatra extensions, semi-officially supported.
+          %li 
+            Use
+            %em require 'sinatra/reloader'
+            to automatically reload ruby files on code changes.
+          %li
+            %a{:href=>'https://github.com/sinatra/sinatra-contrib'} https://github.com/sinatra/sinatra-contrib
+      %li
+        %strong sinatra-twitter-bootstrap
+        %ul
+          %li Use Twitter Bootstrap for easy layouts
+          %li
+            %a{:href=>'http://getbootstrap.com/2.3.2/'} http://getbootstrap.com/2.3.2/
+
+          %li
+            %a{:href=>'https://github.com/mfojtik/sinatra-twitter-bootstrap'} https://github.com/mfojtik/sinatra-twitter-bootstrap
+      %li
+        %strong HAML
+        %ul
+          %li Templating engine for HTML
+          %li
+            %a{:href=>'http://haml.info/'} http://haml.info/
+          %li
+            %a{:href=>'https://github.com/haml/haml'} https://github.com/haml/haml
