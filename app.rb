@@ -9,6 +9,7 @@ require 'sass'
 class SeedApp < Sinatra::Base
 
   register Sinatra::Twitter::Bootstrap::Assets
+  register Sinatra::Reloader
 
   get '/' do
     haml :index
